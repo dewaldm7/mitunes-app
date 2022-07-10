@@ -1,0 +1,231 @@
+.App {
+  margin: 0;
+  padding: 5;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+ 
+}
+
+
+
+/*homepage*/
+
+.welcome-heading {
+  margin: 0px 200px;
+  background-image: url('../public/images/headphones.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+ 
+  
+.welcome-text {
+  position: absolute;
+  left: 350px;
+  font-family: monospace;
+
+}
+
+.welcomeBackground {
+  background-image: url('../public/images/blueWallpaper.jpg');
+ 
+}
+
+
+/*navbar */
+.logo {
+  color: black;
+  position:absolute;
+  right: 600px;
+  pointer-events: none;
+}
+
+.home {
+  padding-left: 15px;
+  font-family: monospace;
+}
+
+.home:hover {
+  text-decoration: underline;
+}
+
+.wrap-Brand {
+  display: flex;
+}
+
+.categories {
+  margin-top: 20px;
+}
+
+.categories ul {
+  position: relative;
+  list-style-type: none;
+}
+
+.categories ul li {
+  text-decoration: none;
+}
+
+.category-link {
+  color: black;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.home-wrap {
+  margin: 25px 0;
+}
+
+.link {
+  font-weight: bold;
+  margin: 0px 5px;
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: monospace;
+}
+
+.link:hover {
+
+  text-decoration:underline;
+}
+
+
+
+
+
+
+/*search bar*/
+
+.heading {
+  font-size: 30px;
+  padding: 16px 0;
+  color: black;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+.search-label {
+  position: relative;
+  width: 50%;
+  font-family: monospace;
+  
+}
+
+.container input {
+  width: 100%;
+  padding: 16px;
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 26px;
+  font-size: 34px;
+  color: #555;
+  right: 18px;
+}
+
+
+
+.results-container {
+  display: flex;
+  flex-flow: wrap;
+}
+
+
+
+.result-item {
+  display: block;
+  position: relative;
+  padding: 10px;
+  border: 1px solid gray;
+  margin: 25px;
+  text-align: center;
+  min-width: 200px;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 3%;
+}
+
+
+
+.image-username {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  background-color: gray;
+  padding: 5px 10px;
+} 
+
+
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.image {
+  height: 95%;
+  width: 200px;
+}
+
+
+.navBar {
+  background-color: white;
+  height: 100px;
+  
+}
+
+
+/* favorite section */
+
+.row-container {
+  text-align: left;
+  
+}
+
+.favourite-image {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.favorite {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  height: 250px;
+  width: 70%;
+  overflow: hidden;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.favorite-username {
+  overflow-x: hidden;
+}
+
+.favourites-text {
+  font-family: monospace;
+
+}
+
+.favorites-header {
+  background-image: url('../public/images/blueWallpaper.jpg')
+}
